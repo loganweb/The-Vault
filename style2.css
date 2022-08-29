@@ -1,0 +1,12 @@
+body {
+  color: red;
+  background-color: black;
+  text-align: center;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/Coffered_vault_of_concrete.jpg");
+}
+#password {
+  font-size: 15px;
+}
+a {
+  font-size: 25px;
+}
