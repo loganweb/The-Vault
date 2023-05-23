@@ -3,7 +3,22 @@
   <head>
     <title>The Vault Door</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link href="style.css" rel="stylesheet" />
+    <!-- <link href="styles.css" rel="stylesheet" /> -->
+    <link rel="icon" type="image" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpYZdExFmnuipKjMR5m7FT3dBfFYHeI0i6g&usqp=CAU">
+    <style>
+      body {
+  color: blue;
+  background-color: black;
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpYZdExFmnuipKjMR5m7FT3dBfFYHeI0i6g&usqp=CAU");
+}
+#password {
+  font-size: 15px;
+}
+a {
+  font-size: 25px;
+}
+    </style>
   </head>
   <body>
     <br />
@@ -25,6 +40,15 @@
     <br />
     <button type="button" id="button">submit</button>
 
-    <script src="script.js"></script>
+    <script>
+      document.getElementById("button").onclick = function () {
+  let password = document.getElementById("password").value;
+  let cpassword="in";
+if(password===cpassword){
+    window.location.href="https://the-vault.w3spaces.com/vault.html";
+}  
+  
+};
+    </script>
   </body>
 </html>
